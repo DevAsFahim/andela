@@ -1,0 +1,71 @@
+.navbar_container {
+    height: 95px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all ease-in-out .5s;
+}
+.nav_active {
+    background-color: #fff;
+    transition: all ease-in-out .5s;
+}
+.nav_bar {
+    max-width: 1320px;
+    margin: auto;
+    height: 100%;
+}
+.nav_logo {
+    width: 186px;
+}
+.nav_logo img {
+    max-width: 100%;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-right: 36px;
+}
+.menu a {
+    line-height: 40px;
+    height: 40px;
+    padding: 0px 12px 0px 12px;
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    text-align: left;
+    background: rgba(0,0,0,0);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.nav_active .menu a {
+    color: #132128;
+}
+.nav_btn button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 48px;
+    padding: 5px 30px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+}
+.nav_active .nav_btn .apply {
+    color: #132128;
+    border-color: #132128;
+}
+.nav_btn button:hover {
+    transform: scale(1.04);
+}
+.nav_bar .hire {
+    border: 1px solid #56C870;
+    background-color: #56C870;
+    color: #132128;
+}
+.nav_bar .apply {
+    border: 1px solid #fff;
+    margin-right: 22px;
+}
